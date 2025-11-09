@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS tictactoe;
+
+USE tictactoe;
+
+CREATE TABLE IF NOT EXISTS winners (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    winner_name VARCHAR(100),
+    match_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DESCRIBE winners;
+
+
+SELECT * FROM winners;
+
+SET SQL_SAFE_UPDATES = 1;
+
+TRUNCATE winners ;

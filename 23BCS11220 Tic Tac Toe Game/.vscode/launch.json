@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "JDBCTest",
+        "request": "launch",
+        "mainClass": "JDBCTest",
+        "projectName": "TicTacToeGame_87110985"
+      },
+      {
+        "type": "java",
+        "name": "JDBCTest",
+        "request": "launch",
+        "mainClass": "JDBCTest",
+        "projectName": "TicTacToeGame_87926d9d"
+      },
+      {
+        "type": "java",
+        "name": "Launch Game",
+        "request": "launch",
+        "mainClass": "Main"
+      }
+    ]
+  }
+  
